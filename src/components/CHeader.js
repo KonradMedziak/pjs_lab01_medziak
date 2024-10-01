@@ -8,7 +8,7 @@ class CHeader extends Component{
       <div className='headerConstainer'>
         <img src={logo} className='headerLogo' alt="logo"></img>
         <h2>
-          Witaj w przykładownym serwisie
+          Witaj w przykładownym serwisie {this.props.aName+' '+this.props.aFamily}
         </h2>
       </div>
     );
