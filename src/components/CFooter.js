@@ -12,7 +12,9 @@ import React from "react";
     )
 }
 */
-export const CFooter = ()=>{
+
+
+/* export const CFooter = ()=>{
     let date=new Date();
     return(
         <div>
@@ -24,4 +26,11 @@ export const CFooter = ()=>{
     )
 }
 
+*/
+
 //export default CFooter;
+
+export const CFooter=()=>{
+    let date=new Date();
+    return React.createElement('div',{className: 'footerDivClass'},React.createElement('h5',{id:'footerText',className:'footerTextClass'},'Prog. JS, Przykładowy serwis React. Dzisiaj mamy: '+date.toLocaleDateString('pl-PL')))
+}
