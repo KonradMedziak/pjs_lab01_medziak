@@ -1,10 +1,12 @@
 //import logo from './logo.svg';
-import './App.css';
+import CHeader from './components/CHeader';
 import {CFooter} from './components/CFooter';
+import './components/CHeader.css';
 
 function App() {
   return (
     <div className="App">
+      <CHeader/>
       <CFooter/>
     </div>
   );
