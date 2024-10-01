@@ -1,7 +1,7 @@
 import React from "react";
 
 
-function CFooter(){
+/* function CFooter(){
     return (
     <div>
         <h5>
@@ -11,5 +11,17 @@ function CFooter(){
     
     )
 }
+*/
+export const CFooter = ()=>{
+    let date=new Date();
+    return(
+        <div>
+            <h5>
+                Prog. JS, przykładowy serwis React. Dzisiaj mamy: {" "}
+                {date.toString()}{" "}
+            </h5>
+        </div>
+    )
+}
 
-export default CFooter;
+//export default CFooter;
